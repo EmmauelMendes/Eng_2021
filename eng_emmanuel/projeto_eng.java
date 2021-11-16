@@ -4,16 +4,15 @@ import java.util.Scanner;
 
 public class projeto_eng {
     public static void main(String[] args) {
-		int a1, a2, a3;
+		int num1;
+		int num2;
+		int soma;
 		Scanner entrada = new Scanner(System.in);
-
-		System.out.println("Informe o primeiro número: ");
-		a1 = Integer.parseInt(entrada.nextLine());
-
-		System.out.println("Informe o segundo número: ");
-		a2 = Integer.parseInt(entrada.nextLine());
-
-		a3 = a1 + a2;
-		System.out.println("Valor = " + a3);
+		System.out.println("Número 1: ");
+		num1 = Integer.parseInt(entrada.nextLine());
+		System.out.println("Número 2: ");
+		num2 = Integer.parseInt(entrada.nextLine());
+		soma = num1 + num2;
+		System.out.println("Soma "+soma);
 	}
 }
